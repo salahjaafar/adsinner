@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="content" method="upgrade">
+    <name>PLG_CONTENT_ADSINNER</name>
+    <author>Salah JAAFAR</author>
+    <creationDate>July 22, 2023</creationDate>
+    <copyright>Copyright (C) 2023 www.techno.rn.tn</copyright>
+    <license>GNU General Public License version 3 or later</license>
+    <authorEmail>salah.jaafar@gmail.com</authorEmail>
+    <authorUrl>https://www.techno.rn.tn</authorUrl>
+    <version>1.0</version>
+    <description>PLG_CONTENT_ADSINNER_DESC</description>
+
+    <files>
+        <filename plugin="adsinner">adsinner.php</filename>
+        <folder>language</folder>
+        <folder>sql</folder>
+    </files>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="block_1"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_1_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_1_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_1_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="2"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 2 -->
+                <field name="block_2"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_2_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_2_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_2_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="5"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 3 -->
+                <field name="block_3"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_3_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_3_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_3_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="9"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 4 -->
+                <field name="block_4"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_4_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_4_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_4_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="10"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 5 -->
+                <field name="block_5"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_5_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_5_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_5_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="7"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 6 -->
+                <field name="block_6"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_6_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_6_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_6_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="13"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 7 -->
+                <field name="block_7"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_7_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_7_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_7_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="16"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 8 -->
+                <field name="block_8"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_8_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_8_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_8_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="18"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 9 -->
+                <field name="block_9"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_9_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_9_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_9_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="20"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+
+                <!-- Block 10 -->
+                <field name="block_10"
+                       type="textarea"
+                       label="PLG_INNER_CONTENT_BLOCK_10_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_10_DESC"
+                       default=""
+                       cols="35" rows="5"
+                       filter="raw" />
+                <field name="block_10_location"
+                       type="integer"
+                       first="1"
+                       last="10"
+                       step="1"
+                       default="25"
+                       label="PLG_INNER_CONTENT_BLOCK_LOCATION_LABEL"
+                       description="PLG_INNER_CONTENT_BLOCK_LOCATION_DESC" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
