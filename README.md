@@ -1,6 +1,3 @@
-# Adsinner
-Sure! Here's the rewritten description for the "Ads Inner" plugin on GitHub:
-
 ## Ads Inner Plugin for Joomla!
 
 The "Ads Inner" plugin is an advanced content plugin for Joomla! that enables you to effortlessly insert custom ad blocks within your Joomla articles. With this plugin, you have the flexibility to add up to 15 different ad blocks, each with its unique HTML content. You can strategically position these ad blocks by specifying the paragraph number where you want them to appear.
